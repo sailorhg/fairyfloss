@@ -1,0 +1,16 @@
+{
+  "name": "fairyfloss-theme",
+  "theme": "syntax",
+  "version": "1.0.0",
+  "author": "Amy Wibowo <sailorhg@gmail.com>",
+  "description": "Cute pastel theme created with ♥",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/atom/fairyfloss-theme",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
