@@ -1,0 +1,40 @@
+body {
+  background: #b8a2ce;
+  font-family: Courier;
+  color: #5a5475;
+  font-size: 24px;
+}
+
+a {
+  color: #5a5475;
+}
+
+.title, .screenshot {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.explanation {
+  display: block;
+  margin-top: 100px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.title img, .screenshot img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  display: block;
+  margin-top: 100px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  text-align: center;
+}
