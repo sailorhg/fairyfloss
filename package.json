@@ -8,7 +8,7 @@
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/sailorhg/fairyfloss/atom",
+  "repository": "https://github.com/sailorhg/fairyfloss",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
