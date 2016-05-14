@@ -1,0 +1,27 @@
+{
+    "name": "fairyfloss",
+    "displayName": "Fairy Floss",
+    "description": "Cute pastel theme created with ♥ and autoconverted to work for VS Code",
+    "version": "0.1.0",
+    "publisher": "sailorhg",
+    "homepage": "sailorhg.github.io/fairyfloss",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sailorhg/fairyfloss"
+    },
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Fairy Floss",
+                "uiTheme": "vs-dark",
+                "path": "./themes/fairyfloss.tmTheme"
+            }
+        ]
+    }
+}
