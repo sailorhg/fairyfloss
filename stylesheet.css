@@ -20,7 +20,7 @@ a {
   width: 800px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .title img, .screenshot img{
@@ -31,10 +31,16 @@ a {
 
 .footer {
   display: block;
-  margin-top: 100px;
+  margin-top: 50px;
   width: 800px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
   text-align: center;
+}
+
+table {
+  margin-top: 50px;
+  border-spacing: 2rem;
+
 }
