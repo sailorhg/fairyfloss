@@ -1,5 +1,3 @@
-// Sublime Text theme for Fairyfloss
-// Based on Spacegray: http://kkga.github.io/spacegray/
 //
 // TABS
 //
@@ -879,13 +877,13 @@
     "class": "quick_panel_row",
     "attributes": ["selected"],
     "layer0.texture": "",
-    "layer0.tint": [197, 163, 255]
+    "layer0.tint": [60, 56, 77]
   },
   {
     "class": "quick_panel_label",
     "fg": [180, 180, 180],
-    "match_fg": [255, 255, 255, 200],
-    "selected_fg": [252, 174, 174],
+    "match_fg": [200, 200, 200, 200],
+    "selected_fg": [240, 240, 240],
     "selected_match_fg": [255, 255, 255, 200]
   },
   {
@@ -915,7 +913,7 @@
     "class": "mini_quick_panel_row",
     "attributes": ["selected"],
     "layer0.texture": "",
-    "layer0.tint": [197, 163, 255]
+    "layer0.tint": [60, 56, 77]
   },
 
 //
