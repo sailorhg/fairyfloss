@@ -7,7 +7,7 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Monokai</string>
+	<string>Fairyfloss</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -20,11 +20,11 @@
 				<key>foreground</key>
 				<string>#F8F8F2</string>
 				<key>invisibles</key>
-				<string>#3B3A32</string>
+				<string>#A8757B</string>
 				<key>lineHighlight</key>
-				<string>#3E3D32</string>
+				<string>#716799</string>
 				<key>selection</key>
-				<string>#49483E</string>
+				<string>#8077A8</string>
 			</dict>
 		</dict>
 		<dict>
@@ -292,6 +292,6 @@
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>semanticClass</key>
-	<string>theme.dark.monokai</string>
+	<string>theme.dark.fairyfloss</string>
 </dict>
 </plist>
