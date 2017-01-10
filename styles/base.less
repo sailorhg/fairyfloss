@@ -31,12 +31,12 @@ atom-text-editor .invisible-character {
   color: @syntax-invisible-character-color;
 }
 
-atom-text-editor .search-results .marker .region {
+atom-text-editor .search-results .syntax--marker .region {
   background-color: transparent;
   border: @syntax-result-marker-color;
 }
 
-atom-text-editor .search-results .marker.current-result .region {
+atom-text-editor .search-results .syntax--marker.current-result .region {
   border: @syntax-result-marker-color-selected;
 }
 
@@ -52,92 +52,92 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   background-color: #3E3D32;
 }
 
-.comment {
+.syntax--comment {
   color: #E6C000;
 }
 
-.string {
+.syntax--string {
   color: #FFEA00;
 }
 
-.constant.numeric {
+.syntax--constant.syntax--numeric {
   color: #C5A3FF;
 }
 
-.constant.language {
+.syntax--constant.syntax--language {
   color: #C5A3FF;
 }
 
-.constant.character, .constant.other {
+.syntax--constant.syntax--character, .syntax--constant.syntax--other {
   color: #C5A3FF;
 }
 
-.variable {
+.syntax--variable {
 }
 
-.keyword {
+.syntax--keyword {
   color: #FFB8D1;
 }
 
-.storage {
+.syntax--storage {
   color: #FFB8D1;
 }
 
-.storage.type {
+.syntax--storage.syntax--type {
   font-style: italic;
   color: #C2FFDF;
 }
 
-.entity.name.class {
+.syntax--entity.syntax--name.syntax--class {
   text-decoration: underline;
   color: #FFF352;
 }
 
-.entity.other.inherited-class {
+.syntax--entity.syntax--other.syntax--inherited-class {
   font-style: italic;
   text-decoration: underline;
   color: #FFF352;
 }
 
-.entity.name.function {
+.syntax--entity.syntax--name.syntax--function {
   color: #FFF352;
 }
 
-.variable.parameter {
+.syntax--variable.syntax--parameter {
   font-style: italic;
   color: #FF857F;
 }
 
-.entity.name.tag {
+.syntax--entity.syntax--name.syntax--tag {
   color: #FFB8D1;
 }
 
-.entity.other.attribute-name {
+.syntax--entity.syntax--other.syntax--attribute-name {
   color: #FFF352;
 }
 
-.support.function {
+.syntax--support.syntax--function {
   color: #C2FFDF;
 }
 
-.support.constant {
+.syntax--support.syntax--constant {
   color: #C2FFDF;
 }
 
-.support.type, .support.class {
+.syntax--support.syntax--type, .syntax--support.syntax--class {
   font-style: italic;
   color: #C2FFDF;
 }
 
-.support.other.variable {
+.syntax--support.syntax--other.syntax--variable {
 }
 
-.invalid {
+.syntax--invalid {
   color: #F8F8F0;
   background-color: #F92672;
 }
 
-.invalid.deprecated {
+.syntax--invalid.syntax--deprecated {
   color: #F8F8F0;
   background-color: #AE81FF;
 }
