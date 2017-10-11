@@ -1,0 +1,62 @@
+{
+    "workbench.colorTheme": "fairyfloss",
+
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#5A5475",
+        "activityBar.foreground": "#C5A3FF",
+        "activityBar.border": "#716799",
+        "activityBarBadge.background": "#FFB8D1",
+
+        "sideBar.background": "#3A374D",
+        "sideBar.border": "#716799",
+        "sideBarTitle.foreground": "#8077A8",
+        "sideBarSectionHeader.background": "#5A5475",
+        "sideBarSectionHeader.foreground": "#F8F8F2",
+
+        "list.activeSelectionBackground": "#AE81FF",
+        "list.activeSelectionForeground": "#F8F8F2",
+        "list.inactiveSelectionBackground": "#8077A8",
+        "list.inactiveSelectionForeground": "#F8F8F2",
+        "list.focusBackground": "#8077A8",
+        "list.focusForeground": "#F8F8F2",
+
+        "editorSuggestWidget.background": "#3A374D",
+        "editorSuggestWidget.foreground": "#F8F8F0",
+        "editorSuggestWidget.border": "#8077A8",
+        "editorSuggestWidget.selectedBackground": "#C5A3FF",
+
+        "statusBar.background": "#3A374D",
+        "statusBar.foreground": "#F8F8F2",
+        "statusBar.border": "#716799",
+        "statusBar.debuggingBackground": "#AE81FF",
+
+        "titleBar.activeBackground": "#3A374D",
+        "titleBar.border": "#8077A8",
+        "titleBar.activeForeground": "#AE81FF",
+
+        "input.background": "#31282C",
+        "input.foreground": "#F8F8F0",
+        "input.placeholderForeground": "#5A5475",
+        "input.border": "#5A5475",
+
+        "inputOption.activeBorder": "#FFB8D1",
+        "inputValidation.errorBackground": "#716799",
+        "inputValidation.errorBorder": "#F92672",
+        "inputValidation.infoBackground": "#716799",
+        "inputValidation.infoBorder": "#F8F8F0",
+        "inputValidation.warningBackground": "#716799",
+        "inputValidation.warningBorder": "#FFF352",
+
+        "editorGroupHeader.tabsBackground": "#3A374D",
+        "editorGroupHeader.tabsBorder": "#716799",
+        "tab.activeBackground": "#8077A8",
+        "tab.activeForeground": "#F8F8F2",
+        "tab.activeBorder": "#C5A3FF",
+        "tab.inactiveBackground": "#5A5475",
+        "tab.inactiveForeground": "#F8F8F0",
+        "tab.border": "#716799",
+
+        "editorLineNumber.foreground": "#C5A3FF",
+        "editorIndentGuide.background": "#AE81FF"
+    }
+}
