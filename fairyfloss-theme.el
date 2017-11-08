@@ -7,7 +7,7 @@ Authors:
 
 (custom-theme-set-faces
  'fairyfloss
- '(region ((t (:background "color-197"))))
+ '(region ((t (:background "color-170"))))
  '(cursor ((t (:background "#f8f8f0"))))
  '(linum ((t (:foreground "#f8f8f0"))))
  '(fringe ((((class color) (background light)) (:background "grey95")) (((class color) (background dark)) (:background "grey10")) (t (:background "gray"))))
@@ -33,12 +33,6 @@ Authors:
  '(match ((((class color) (min-colors 88) (background light)) (:background "yellow1")) (((class color) (min-colors 88) (background dark)) (:background "RoyalBlue3")) (((class color) (min-colors 8) (background light)) (:foreground "black" :background "yellow")) (((class color) (min-colors 8) (background dark)) (:foreground "white" :background "blue")) (((type tty) (class mono)) (:inverse-video t)) (t (:background "gray"))))
  '(tooltip ((t (:foreground "black" :background "lightyellow" :inherit (variable-pitch)))))
  '(secondary-selection ((((class color) (min-colors 88) (background light)) (:background "yellow1")) (((class color) (min-colors 88) (background dark)) (:background "SkyBlue4")) (((class color) (min-colors 16) (background light)) (:background "yellow")) (((class color) (min-colors 16) (background dark)) (:background "SkyBlue4")) (((class color) (min-colors 8)) (:foreground "black" :background "cyan")) (t (:inverse-video t))))
- '(diff-added ((t (:background "#305030"))))
- '(diff-removed ((t (:background "#903010"))))
- '(diff-file-header ((t (:background "#362145"))))
- '(diff-context ((t (:foreground "#E0E4CC"))))
- '(diff-changed ((t (:foreground "#3388cc"))))
- '(diff-hunk-header ((t (:background "#242130"))))
  '(font-lock-comment-face ((t (:foreground "#e6c000"))))
  '(font-lock-string-face ((t (:foreground "#ff3a00"))))
  '(font-lock-builtin-face ((t (:foreground "#c5a3ff"))))
@@ -57,8 +51,9 @@ Authors:
  '(font-lock-regexp-grouping-backslash ((t (:inherit (bold)))))
  '(font-lock-regexp-grouping-construct ((t (:inherit (bold)))))
  '(ido-only-match ((t (:foreground "color-84"))))
+ '(enh-ruby-op-face ((t (:inherit font-lock-constant-face))))
+ '(enh-ruby-string-delimiter-face ((t (:inherit font-lock-string-face))))
  '(default ((t (:inherit nil :stipple nil :background "#5a5475" :foreground "#f8f8f0" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 1 :width normal :foundry "default" :family "Courier"))))
- '(magit-diff-added ((t (:foreground "#A8FF60"))))
- '(magit-diff-removed ((t (:foreground "#CC6666")))))
+ '(org-pomodoro-mode-line ((t (:foreground "#FF271A")))))
 
 (provide-theme 'fairyfloss)
