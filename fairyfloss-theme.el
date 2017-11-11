@@ -57,7 +57,6 @@ Authors:
  '(org-level-2 ((t (:foreground "#ff9f40"))))
  '(org-date ((t (:foreground "color-45" :underline t))))
  '(default ((t (:inherit nil :stipple nil :background "#5a5475" :foreground "#f8f8f0" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 1 :width normal :foundry "default" :family "Courier"))))
- '(org-pomodoro-mode-line ((t (:foreground "#ff0800"))))
- '(org-pomodoro-mode-line-break ((t (:foreground "#00ff7f")))))
+ '(ido-subdir ((t (:foreground "color-210")))))
 
 (provide-theme 'fairyfloss)
