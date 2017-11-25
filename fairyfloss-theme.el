@@ -10,10 +10,15 @@ Authors:
   '((t (:foreground "#c5a3ff")))
   "Custom number face")
 
+(defface font-lock-function-argument-face
+  '((t (:foreground "#ff857f")))
+  "Function argument face")
+
 ;; Define custom keywords for prog-mode
-(font-lock-add-keywords nil
-  (list (list "\\([0-9]+\\)" '(0 'font-lock-number-face t)) ))
-  (font-lock-fontify-buffer)
+;; (font-lock-add-keywords nil
+;;   (list (list "\\([0-9]+\\)" '(0 'font-lock-number-face t)) )
+;;   ;; (list (list "\\\\")))
+;; (font-lock-fontify-buffer)
 
 (custom-theme-set-faces
  'fairyfloss
@@ -47,7 +52,7 @@ Authors:
  '(font-lock-string-face ((t (:foreground "#ffea00"))))
  '(font-lock-builtin-face ((t (:foreground "#c5a3ff"))))
  '(font-lock-variable-name-face ((t nil)))
- '(font-lock-keyword-face ((t (:foreground "#ffb8d1"))))
+ '(font-lock-keyword-face ((t (:foreground "#FFB8D1"))))
  '(font-lock-type-face ((t (:foreground "PaleGreen"))))
  '(font-lock-function-name-face ((t (:foreground "#fff352"))))
  '(font-lock-warning-face ((t nil)))
