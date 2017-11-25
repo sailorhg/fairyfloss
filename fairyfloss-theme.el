@@ -5,6 +5,16 @@ Authors:
    - Auto-generated port for Emacs: @lrlna
    - Adjustments: @Auralcat")
 
+;; Define custom faces
+(defface font-lock-number-face
+  '((t (:foreground "#c5a3ff")))
+  "Custom number face")
+
+;; Define custom keywords for prog-mode
+(font-lock-add-keywords nil
+  (list (list "\\([0-9]+\\)" '(0 'font-lock-number-face t)) ))
+  (font-lock-fontify-buffer)
+
 (custom-theme-set-faces
  'fairyfloss
  '(region ((t (:background "color-170"))))
@@ -34,11 +44,7 @@ Authors:
  '(tooltip ((t (:foreground "black" :background "lightyellow" :inherit (variable-pitch)))))
  '(secondary-selection ((((class color) (min-colors 88) (background light)) (:background "yellow1")) (((class color) (min-colors 88) (background dark)) (:background "SkyBlue4")) (((class color) (min-colors 16) (background light)) (:background "yellow")) (((class color) (min-colors 16) (background dark)) (:background "SkyBlue4")) (((class color) (min-colors 8)) (:foreground "black" :background "cyan")) (t (:inverse-video t))))
  '(font-lock-comment-face ((t (:foreground "#e6c000"))))
-<<<<<<< HEAD
  '(font-lock-string-face ((t (:foreground "#ffea00"))))
-=======
- '(font-lock-string-face ((t (:foreground "#ff6b3f"))))
->>>>>>> ee15ebc5ac579ed7f9a96b40809f0f732163b3d3
  '(font-lock-builtin-face ((t (:foreground "#c5a3ff"))))
  '(font-lock-variable-name-face ((t nil)))
  '(font-lock-keyword-face ((t (:foreground "#ffb8d1"))))
@@ -62,6 +68,7 @@ Authors:
  '(org-level-7 ((t (:foreground "color-81"))))
  '(outline-7 ((t nil)))
  '(magit-section-highlight ((t (:background "#740036"))))
- '(default ((t (:inherit nil :stipple nil :background "#5a5475" :foreground "#f8f8f0" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 1 :width normal :foundry "default" :family "Courier")))))
+ '(default ((t (:inherit nil :stipple nil :background "#5a5475" :foreground "#f8f8f0" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 1 :width normal :foundry "default" :family "Courier"))))
+ '(font-lock-number-face ((t (:foreground "#c5a3ff")))))
 
 (provide-theme 'fairyfloss)
