@@ -34,7 +34,11 @@ Authors:
  '(tooltip ((t (:foreground "black" :background "lightyellow" :inherit (variable-pitch)))))
  '(secondary-selection ((((class color) (min-colors 88) (background light)) (:background "yellow1")) (((class color) (min-colors 88) (background dark)) (:background "SkyBlue4")) (((class color) (min-colors 16) (background light)) (:background "yellow")) (((class color) (min-colors 16) (background dark)) (:background "SkyBlue4")) (((class color) (min-colors 8)) (:foreground "black" :background "cyan")) (t (:inverse-video t))))
  '(font-lock-comment-face ((t (:foreground "#e6c000"))))
+<<<<<<< HEAD
  '(font-lock-string-face ((t (:foreground "#ffea00"))))
+=======
+ '(font-lock-string-face ((t (:foreground "#ff6b3f"))))
+>>>>>>> ee15ebc5ac579ed7f9a96b40809f0f732163b3d3
  '(font-lock-builtin-face ((t (:foreground "#c5a3ff"))))
  '(font-lock-variable-name-face ((t nil)))
  '(font-lock-keyword-face ((t (:foreground "#ffb8d1"))))
