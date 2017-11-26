@@ -15,10 +15,9 @@ Authors:
   "Function argument face")
 
 ;; Define custom keywords for prog-mode
-;; (font-lock-add-keywords nil
+;; (font-lock-add-keywords 'prog-mode
 ;;   (list (list "\\([0-9]+\\)" '(0 'font-lock-number-face t)) )
 ;;   ;; (list (list "\\\\")))
-;; (font-lock-fontify-buffer)
 
 (custom-theme-set-faces
  'fairyfloss
