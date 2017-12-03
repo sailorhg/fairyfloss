@@ -58,8 +58,10 @@ Authors:
  '(org-level-7 ((t (:foreground "color-81"))))
  '(outline-7 ((t nil)))
  '(magit-section-highlight ((t (:background "#740036"))))
- '(font-lock-number-face ((t (:foreground "#c5a3ff"))))
+ '(org-table ((t (:foreground "color-159"))))
  '(default ((t (:inherit nil :stipple nil :background "#5a5475" :foreground "#f8f8f0" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 1 :width normal :foundry "default" :family "Courier"))))
- '(org-table ((t (:foreground "color-159")))))
+ '(org-agenda-structure ((t (:foreground "#EFDCCD"))))
+ '(org-upcoming-deadline ((t (:foreground "#B1AA98"))))
+ '(org-scheduled-previously ((t (:foreground "#778855")))))
 
 (provide-theme 'fairyfloss)
