@@ -3,7 +3,8 @@
 Authors:
    - Original theme: @sailorhg
    - Auto-generated port for Emacs: @lrlna
-   - Adjustments: @Auralcat")
+   - Adjustments: @Auralcat
+   Updated in 2018-03-24.")
 
 (custom-theme-set-faces
  'fairyfloss
@@ -59,9 +60,12 @@ Authors:
  '(outline-7 ((t nil)))
  '(magit-section-highlight ((t (:background "#740036"))))
  '(org-table ((t (:foreground "color-159"))))
- '(default ((t (:inherit nil :stipple nil :background "#5a5475" :foreground "#f8f8f0" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 1 :width normal :foundry "default" :family "Courier"))))
  '(org-agenda-structure ((t (:foreground "#EFDCCD"))))
  '(org-upcoming-deadline ((t (:foreground "#B1AA98"))))
- '(org-scheduled-previously ((t (:foreground "#778855")))))
+ '(org-scheduled-previously ((t (:foreground "#778855"))))
+ '(default ((t (:inherit nil :stipple nil :background "#5A5376" :foreground "#f8f8f0" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 1 :width normal :foundry "default" :family "Courier"))))
+ '(js2-function-param ((t (:foreground "color-47"))))
+ '(js2-instance-member ((t (:foreground "brightmagenta"))))
+ '(js2-object-property ((t (:foreground "brightcyan")))))
 
 (provide-theme 'fairyfloss)
