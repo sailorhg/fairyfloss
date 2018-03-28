@@ -4,7 +4,7 @@ Authors:
    - Original theme: @sailorhg
    - Auto-generated port for Emacs: @lrlna
    - Adjustments: @Auralcat
-   Updated in 2018-03-24.")
+   Updated in 2018-03-27.")
 
 (custom-theme-set-faces
  'fairyfloss
@@ -63,9 +63,12 @@ Authors:
  '(org-agenda-structure ((t (:foreground "#EFDCCD"))))
  '(org-upcoming-deadline ((t (:foreground "#B1AA98"))))
  '(org-scheduled-previously ((t (:foreground "#778855"))))
- '(default ((t (:inherit nil :stipple nil :background "#5A5376" :foreground "#f8f8f0" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 1 :width normal :foundry "default" :family "Courier"))))
  '(js2-function-param ((t (:foreground "#FF847C"))))
  '(js2-instance-member ((t (:foreground "brightmagenta"))))
- '(js2-object-property ((t (:foreground "brightcyan")))))
+ '(js2-object-property ((t (:foreground "brightcyan"))))
+ '(web-mode-html-tag-face ((t (:foreground "#FFB8D1"))))
+ '(web-mode-html-attr-name-face ((t (:foreground "#FFF352"))))
+ '(default ((t (:inherit nil :stipple nil :background "#5A5376" :foreground "#f8f8f0" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 1 :width normal :foundry "default" :family "Courier"))))
+ '(web-mode-html-tag-bracket-face ((t (:foreground "color-123")))))
 
 (provide-theme 'fairyfloss)
