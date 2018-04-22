@@ -4,7 +4,7 @@ Authors:
    - Original theme: @sailorhg
    - Auto-generated port for Emacs: @lrlna
    - Adjustments: @Auralcat
-   Updated in 2018-03-27.")
+   Updated in 2018-04-22.")
 
 (custom-theme-set-faces
  'fairyfloss
@@ -68,7 +68,8 @@ Authors:
  '(js2-object-property ((t (:foreground "brightcyan"))))
  '(web-mode-html-tag-face ((t (:foreground "#FFB8D1"))))
  '(web-mode-html-attr-name-face ((t (:foreground "#FFF352"))))
+ '(web-mode-html-tag-bracket-face ((t (:foreground "color-123"))))
  '(default ((t (:inherit nil :stipple nil :background "#5A5376" :foreground "#f8f8f0" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 1 :width normal :foundry "default" :family "Courier"))))
- '(web-mode-html-tag-bracket-face ((t (:foreground "color-123")))))
+ '(weechat-nick-self-face ((t (:foreground "VioletRed2" :weight bold)))))
 
 (provide-theme 'fairyfloss)
