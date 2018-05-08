@@ -4,11 +4,11 @@ Authors:
    - Original theme: @sailorhg
    - Auto-generated port for Emacs: @lrlna
    - Adjustments: @Auralcat
-   Updated in 2018-04-22.")
+   Updated in 2018-05-08.")
 
 (custom-theme-set-faces
  'fairyfloss
- '(region ((t (:background "color-170"))))
+ '(region ((t (:background "deep pink" :foreground "light blue"))))
  '(cursor ((t (:background "#f8f8f0"))))
  '(linum ((t (:foreground "#f8f8f0"))))
  '(fringe ((((class color) (background light)) (:background "grey95")) (((class color) (background dark)) (:background "grey10")) (t (:background "gray"))))
@@ -63,13 +63,6 @@ Authors:
  '(org-agenda-structure ((t (:foreground "#EFDCCD"))))
  '(org-upcoming-deadline ((t (:foreground "#B1AA98"))))
  '(org-scheduled-previously ((t (:foreground "#778855"))))
- '(js2-function-param ((t (:foreground "#FF847C"))))
- '(js2-instance-member ((t (:foreground "brightmagenta"))))
- '(js2-object-property ((t (:foreground "brightcyan"))))
- '(web-mode-html-tag-face ((t (:foreground "#FFB8D1"))))
- '(web-mode-html-attr-name-face ((t (:foreground "#FFF352"))))
- '(web-mode-html-tag-bracket-face ((t (:foreground "color-123"))))
- '(default ((t (:inherit nil :stipple nil :background "#5A5376" :foreground "#f8f8f0" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 1 :width normal :foundry "default" :family "Courier"))))
- '(weechat-nick-self-face ((t (:foreground "VioletRed2" :weight bold)))))
+ '(default ((t (:inherit nil :stipple nil :background "#5A5376" :foreground "#f8f8f0" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 1 :width normal :foundry "default" :family "Courier")))))
 
 (provide-theme 'fairyfloss)
