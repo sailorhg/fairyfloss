@@ -8,7 +8,6 @@ Authors:
 
 (custom-theme-set-faces
  'fairyfloss
- '(region ((t (:background "deep pink" :foreground "light blue"))))
  '(cursor ((t (:background "#f8f8f0"))))
  '(linum ((t (:foreground "#f8f8f0"))))
  '(fringe ((((class color) (background light)) (:background "grey95")) (((class color) (background dark)) (:background "grey10")) (t (:background "gray"))))
@@ -58,11 +57,10 @@ Authors:
  '(ido-subdir ((t (:foreground "color-210"))))
  '(org-level-7 ((t (:foreground "color-81"))))
  '(outline-7 ((t nil)))
- '(magit-section-highlight ((t (:background "#740036"))))
  '(org-table ((t (:foreground "color-159"))))
  '(org-agenda-structure ((t (:foreground "#EFDCCD"))))
  '(org-upcoming-deadline ((t (:foreground "#B1AA98"))))
  '(org-scheduled-previously ((t (:foreground "#778855"))))
- '(default ((t (:inherit nil :stipple nil :background "#5A5376" :foreground "#f8f8f0" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 1 :width normal :foundry "default" :family "Courier")))))
+ '(default ((t (:inherit nil :stipple nil :background "#5a5376" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 1 :width normal :foundry "default" :family "default")))))
 
 (provide-theme 'fairyfloss)
