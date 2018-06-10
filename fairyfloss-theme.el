@@ -4,7 +4,7 @@ Authors:
    - Original theme: @sailorhg
    - Auto-generated port for Emacs: @lrlna
    - Adjustments: @Auralcat
-   Updated in 2018-05-12.")
+   Updated in 2018-06-10.")
 
 (custom-theme-set-faces
  'fairyfloss
@@ -62,7 +62,9 @@ Authors:
  '(org-upcoming-deadline ((t (:foreground "#B1AA98"))))
  '(org-scheduled-previously ((t (:foreground "#778855"))))
  '(web-mode-html-tag-face ((t (:foreground "violet"))))
+ '(js2-function-param ((t (:foreground "#fb847c"))))
  '(default ((t (:inherit nil :stipple nil :background "#5a5376" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 1 :width normal :foundry "default" :family "default"))))
- '(js2-function-param ((t (:foreground "#fb847c")))))
+ '(enh-ruby-op-face ((t (:foreground "#ffb8d1"))))
+ '(enh-ruby-string-delimiter-face ((t (:inherit font-lock-string-face)))))
 
 (provide-theme 'fairyfloss)
