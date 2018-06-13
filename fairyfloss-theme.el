@@ -4,7 +4,7 @@ Authors:
    - Original theme: @sailorhg
    - Auto-generated port for Emacs: @lrlna
    - Adjustments: @Auralcat
-   Updated in 2018-06-10.")
+   Updated in 2018-06-12")
 
 (custom-theme-set-faces
  'fairyfloss
@@ -61,10 +61,20 @@ Authors:
  '(org-agenda-structure ((t (:foreground "#EFDCCD"))))
  '(org-upcoming-deadline ((t (:foreground "#B1AA98"))))
  '(org-scheduled-previously ((t (:foreground "#778855"))))
- '(web-mode-html-tag-face ((t (:foreground "violet"))))
  '(js2-function-param ((t (:foreground "#fb847c"))))
- '(default ((t (:inherit nil :stipple nil :background "#5a5376" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 1 :width normal :foundry "default" :family "default"))))
  '(enh-ruby-op-face ((t (:foreground "#ffb8d1"))))
- '(enh-ruby-string-delimiter-face ((t (:inherit font-lock-string-face)))))
+ '(enh-ruby-string-delimiter-face ((t (:inherit font-lock-string-face))))
+ '(default ((t (:inherit nil :stipple nil :background "#5a5376" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 1 :width normal :foundry "default" :family "default"))))
+ '(rainbow-delimiters-depth-1-face ((t (:inherit org-level-1))))
+ '(rainbow-delimiters-depth-2-face ((t (:inherit org-level-2))))
+ '(rainbow-delimiters-depth-3-face ((t (:inherit org-level-3))))
+ '(rainbow-delimiters-depth-4-face ((t (:inherit org-level-4))))
+ '(rainbow-delimiters-depth-5-face ((t (:inherit org-level-5))))
+ '(rainbow-delimiters-depth-6-face ((t (:inherit org-level-6))))
+ '(rainbow-delimiters-depth-7-face ((((class color) (background light)) (:foreground "#858580")) (((class color) (background dark)) (:foreground "#90a890"))))
+ '(rainbow-delimiters-depth-8-face ((((class color) (background light)) (:foreground "#80a880")) (((class color) (background dark)) (:foreground "#a2b6da"))))
+ '(rainbow-delimiters-depth-9-face ((((class color) (background light)) (:foreground "#887070")) (((class color) (background dark)) (:foreground "#9cb6ad"))))
+ '(rainbow-delimiters-mismatched-face ((t (:inherit (rainbow-delimiters-unmatched-face)))))
+ '(rainbow-delimiters-unmatched-face ((t (:foreground "tomato")))))
 
 (provide-theme 'fairyfloss)
