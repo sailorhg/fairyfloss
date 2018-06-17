@@ -4,7 +4,7 @@ Authors:
    - Original theme: @sailorhg
    - Auto-generated port for Emacs: @lrlna
    - Adjustments: @Auralcat
-   Updated in 2018-06-10.")
+   Updated in 2018-06-17.")
 
 (custom-theme-set-faces
  'fairyfloss
@@ -63,8 +63,14 @@ Authors:
  '(org-scheduled-previously ((t (:foreground "#778855"))))
  '(web-mode-html-tag-face ((t (:foreground "violet"))))
  '(js2-function-param ((t (:foreground "#fb847c"))))
- '(default ((t (:inherit nil :stipple nil :background "#5a5376" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 1 :width normal :foundry "default" :family "default"))))
  '(enh-ruby-op-face ((t (:foreground "#ffb8d1"))))
- '(enh-ruby-string-delimiter-face ((t (:inherit font-lock-string-face)))))
+ '(enh-ruby-string-delimiter-face ((t (:inherit font-lock-string-face))))
+ '(default ((t (:inherit nil :stipple nil :background "#5a5376" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 1 :width normal :foundry "default" :family "default"))))
+ '(company-preview ((t (:foreground "#2aa198" :background "#eee8d5"))))
+ '(company-preview-search ((((background light)) (:inherit (company-tooltip-common-selection))) (((background dark)) (:background "blue1" :inherit (company-preview)))))
+ '(company-tooltip-common ((t (:underline (:color foreground-color :style line) :foreground "#5fafd7" :background "#5f5f5f"))))
+ '(company-tooltip ((t (:background "#39354b" :foreground "#99ebff"))))
+ '(company-tooltip-selection ((t (:background "#626262" :foreground "#afd7ff"))))
+ '(company-tooltip-common-selection ((t (:underline (:color foreground-color :style line) :foreground "#586e75")))))
 
 (provide-theme 'fairyfloss)
