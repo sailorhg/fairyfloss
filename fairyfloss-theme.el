@@ -54,6 +54,8 @@ Authors:
  '(org-todo ((t (:foreground "#ed3e61" :weight bold))))
  '(org-level-2 ((t (:foreground "#ff9f40"))))
  '(org-date ((t (:foreground "color-45" :underline t))))
+ '(org-agenda-dimmed-todo-face ((t (:foreground "gold4"))))
+ '(org-agenda-structure ((t (:foreground "#d5b568"))))
  '(ido-subdir ((t (:foreground "color-210"))))
  '(org-level-7 ((t (:foreground "color-81"))))
  '(outline-7 ((t nil)))
