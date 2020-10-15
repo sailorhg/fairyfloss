@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  Copyright 2020 Fairyfloss contributors
+  https://github.com/sailorhg/fairyfloss
+  Author: Aaron Fenyes (https://github.com/vectornaut/)
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+-->
+<style-scheme id="fairyfloss" _name="Fairyfloss" version="1.0">
+  <author>Amy Wibowo (ported by Aaron Fenyes)</author>
+  <_description>Pastel/candy/daydream fairyfloss color theme</_description>
+  <!--
+
+    This style description file is based on the ones packaged with
+    GtkSourceView. It inherits its GPL licensing from that project. The style
+    itself is a port of Amy Wibowo's Fairyfloss theme.
+
+  -->
+
+  <!-- Fairyfloss palette -->
+  <color name="white"         value="#FFFFFF"/> <!-- no analogue in tmTheme -->
+  <color name="silver"        value="#A9A6B4"/> <!-- no analogue in tmTheme -->
+  <color name="mist"          value="#F8F8F2"/>
+  <color name="mist-dim"      value="#F8F8F0"/>
+  <color name="violet"        value="#C5A3FF"/>
+  <color name="violet-neon"   value="#AE81FF"/>
+  <color name="grape"         value="#8077A8"/>
+  <color name="grape-med"     value="#716799"/>
+  <color name="grape-med-dim" value="#655d87"/>
+  <color name="grape-dim"     value="#5A5475"/>
+  <color name="strawberry"    value="#FF857F"/>
+  <color name="pink"          value="#FFB8D1"/>
+  <color name="pink-dim"      value="#A8757B"/>
+  <color name="pink-neon"     value="#F92672"/>
+  <color name="buttercup"     value="#FFF352"/>
+  <color name="dandelion"     value="#FFEA00"/>
+  <color name="bronze"        value="#E6C000"/>
+  <color name="mint"          value="#C2FFDF"/>
+
+  <!-- Global settings -->
+  <style name="text"                        foreground="mist" background="grape-dim"/>
+  <style name="selection"                   background="grape"/>
+  <style name="cursor"                      foreground="white"/>
+  <style name="current-line"                background="grape-med"/>
+  <style name="line-numbers"                foreground="silver" background="grape-dim"/>
+  <style name="current-line-number"         background="grape-med"/>
+  <style name="draw-spaces"                 foreground="pink-dim"/>
+  <style name="background-pattern"          background="grape-med-dim"/>
+
+  <!-- Bracket matching -->
+  <style name="bracket-match"               foreground="strawberry"/> <!-- no analogue in tmTheme -->
+  <style name="bracket-mismatch"            foreground="mist-dim" background="pink-neon"/>
+
+  <!-- Right margin -->
+  <style name="right-margin"                foreground="pink" background="pink-dim"/>  <!-- no analogue in tmTheme -->
+
+  <!-- Search matching -->
+  <style name="search-match"                foreground="mist-dim" background="violet-neon"/> <!-- no analogue in tmTheme -->
+
+  <!-- Comments -->
+  <style name="def:comment"                 foreground="bronze"/>
+  <style name="def:shebang"                 foreground="bronze" italic="true"/>
+  <style name="def:doc-comment-element"     foreground="bronze" italic="true"/>
+
+  <!-- Constants -->
+  <style name="def:constant"                foreground="violet"/>
+  <style name="def:string"                  foreground="dandelion"/>
+  <style name="def:special-char"            use-style="def:constant"/> <!-- in the tmTheme, `constant.character` falls through to `user-defined constant` -->
+
+  <!-- Identifiers -->
+  <style name="def:identifier"              foreground="mint"/>
+
+  <!-- Statements -->
+  <style name="def:statement"               foreground="pink"/>
+
+  <!-- Types -->
+  <style name="def:type"                    foreground="mint" italic="true"/>
+
+  <!-- Others -->
+  <style name="def:preprocessor"            foreground="pink"/>
+  <style name="def:error"                   foreground="mist-dim" background="pink-neon"/>
+  <style name="def:warning"                 foreground="mist-dim" background="violet-neon"/>
+  <style name="def:note"                    use-style="def:warning"/> <!-- no analogue in tmTheme -->
+  <style name="def:underlined"              italic="true" underline="single"/>  <!-- no analogue in tmTheme -->
+
+  <!-- Language-specific styles -->
+  <style name="diff:added-line"             foreground="mint"/>
+  <style name="diff:removed-line"           foreground="pink"/>
+  <style name="diff:changed-line"           foreground="violet"/>
+  <style name="diff:special-case"           foreground="strawberry"/>
+  <style name="diff:location"               foreground="buttercup" italic="true"/>
+  <style name="diff:diff-file"              foreground="bronze" italic="true"/>
+
+  <style name="xml:element-name"            use-style="def:statement"/>
+  <style name="xml:attribute-name"          foreground="buttercup"/>
+  <style name="xml:namespace"               foreground="strawberry"/>
+
+  <style name="latex:display-math"          use-style="def:string"/>
+  <style name="latex:command"               use-style="def:statement"/>
+  <style name="latex:include"               use-style="def:preprocessor"/>
+
+</style-scheme>
