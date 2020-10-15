@@ -52,6 +52,11 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   background-color: #3E3D32;
 }
 
+atom-text-editor.is-focused .bracket-matcher, :host(.is-focused) .bracket-matcher {
+  background-color: fade(@syntax-color-modified, 75%);
+  z-index: 1;
+}
+
 .comment {
   color: #E6C000;
 }
